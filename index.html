@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration System</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="navBar">
+            <div class="avatar">
+                <img src="pic.jpeg" alt="Avatar">
+                <span>WELCOME TO OUR REGISTRATION SYSTEM</span>
+            </div>
+            <div class="content">
+                <span>HOME</span>
+                <span>MOVIES</span>
+                <span>ABOUT</span>
+                <span>CONTACT US</span>
+            </div>
+        </div>
+
+            <div class="myForm">
+                <h1>Registration management system</h1>
+                <form action="">
+                    <label for="name">Enter Your Name</label>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="ID">Enter Your ID</label>
+                    <input type="text" name="ID" id="ID"><br>
+                    <label for="Country">Select Your Country</label>
+                    <select name="Country" id="Country">
+                        <option value="">--select--</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Canada">Canada</option>
+                        <option value="France">France</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Japan">Japan</option>
+                        <option value="China">China</option>
+                        <option value="Russia">Russia</option>
+                    </select><br>
+                    <label value="llanguages">languages You Can Speak</label><br>
+                    <select name="languages" id="lang">
+                        <option value="languages" >English</option>
+                        <option value="languages" >Hindi</option>
+                        <option value="languages" >French</option>
+                        <option value="languages" >Spanish </option>
+                        <option value="languages" >Chinese </option>
+                        <option value="languages" >Japanese </option>
+                        <option value="languages" >Russian </option>
+                </select>
+                <br><br>
+                    <button type="submit" id ="register">Register</button>
+                </form>
+
+                <hr>
+                <h1>Registered Users</h1>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th>Country</th>
+                        <th>Languages</th>
+                        <th>Actions</th>
+                    </tr>
+                                   
+                </table>
+                
+
+        </div>
+    </div>
+    <script src="index.js"> </script>
+</body>
+</html>

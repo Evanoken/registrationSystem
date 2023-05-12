@@ -1,0 +1,162 @@
+body{
+    background-color: silver;
+    margin: 0;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.container h1{
+    font-size: 50px;
+    color: rgb(9, 9, 9);
+    text-align: center;
+    margin-top: 50px;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #8f8686;
+    color: rgb(27, 19, 19);
+    font-size: 20px;
+    font-weight: bold;
+}
+.navBar img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.avatar span{
+    display:inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    }
+.content{
+    margin-left: 50px;
+}
+.content span{
+    font-size: 20px;
+    font-weight: bold;
+    padding :10px;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    color:black;
+    margin-bottom:50px;
+}
+.myForm input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 40px;
+    background-color:rgb(159, 158, 158);
+}
+.myForm button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #4f4ff0;
+    color: rgb(21, 19, 19);
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom:20px;
+    margin-top: 20px;
+    position: relative;
+}
+form{
+    box-sizing: border-box;
+    border: 1px solid pink;
+    box-shadow: 10px 10px 8px 10px #888888;
+    width: 70%;
+    padding : 60px;
+
+}
+form select{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+form label{
+    font-size: 30px;
+    font-weight: bold;
+}
+#languages{
+    list-style-type: none;
+    width: 30px;
+    height: 20px;
+    margin-bottom: 1px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 8px 10px #888888;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+table tr{
+    color: rgb(21, 19, 19);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+table td{
+    border: 1px solid black;
+    padding: 10px 50px;
+    text-align: center;
+}
+table th{
+    border: 1px solid black;
+    padding: 10px 50px;
+    text-align: center;
+}
+table tr:nth-child(even){
+    background-color: rgb(255, 255, 255);
+}
+table button #delete{
+    background-color: rgb(255, 0, 0);
+    color: rgb(21, 19, 19);
+    font-weight: bold;
+    cursor: pointer;
+}
+table button #edit{
+    background-color: rgb(0, 255, 0);
+    color: rgb(21, 19, 19);
+    font-weight: bold;
+    cursor: pointer;
+}
+
