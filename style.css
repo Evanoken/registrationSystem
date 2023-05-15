@@ -26,6 +26,7 @@ body{
     color: rgb(27, 19, 19);
     font-size: 20px;
     font-weight: bold;
+    cursor:pointer;
 }
 .navBar img{
     width: 50px;
@@ -33,14 +34,20 @@ body{
     margin-left: 10px;
     border-radius: 50%;
 }
+.avatar{
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
 .avatar span{
-    display:inline-block;
     margin-right: 10px;
     font-size: 20px;
     font-weight: bold;
+    margin-left: 30px;
     }
 .content{
     margin-left: 50px;
+    position: static;
 }
 .content span{
     font-size: 20px;
@@ -107,15 +114,6 @@ form label{
     font-size: 30px;
     font-weight: bold;
 }
-#languages{
-    list-style-type: none;
-    width: 30px;
-    height: 20px;
-    margin-bottom: 1px;
-    border-radius: 10px;
-    padding-left: 10px;
-    margin-top: 40px;
-}
 table{
     border-collapse: collapse;
     width: 100%;
@@ -147,16 +145,12 @@ table th{
 table tr:nth-child(even){
     background-color: rgb(255, 255, 255);
 }
-table button #delete{
-    background-color: rgb(255, 0, 0);
-    color: rgb(21, 19, 19);
-    font-weight: bold;
-    cursor: pointer;
-}
-table button #edit{
-    background-color: rgb(0, 255, 0);
-    color: rgb(21, 19, 19);
-    font-weight: bold;
-    cursor: pointer;
-}
+button.delete {
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
 

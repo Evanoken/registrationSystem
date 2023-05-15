@@ -24,7 +24,7 @@
 
             <div class="myForm">
                 <h1>Registration management system</h1>
-                <form action="">
+                <form action="/users" method="POST">
                     <label for="name">Enter Your Name</label>
                     <input type="text" name="name" id="name"><br>
                     <label for="ID">Enter Your ID</label>
@@ -43,15 +43,16 @@
                         <option value="China">China</option>
                         <option value="Russia">Russia</option>
                     </select><br>
-                    <label value="llanguages">languages You Can Speak</label><br>
-                    <select name="languages" id="lang">
-                        <option value="languages" >English</option>
-                        <option value="languages" >Hindi</option>
-                        <option value="languages" >French</option>
-                        <option value="languages" >Spanish </option>
-                        <option value="languages" >Chinese </option>
-                        <option value="languages" >Japanese </option>
-                        <option value="languages" >Russian </option>
+                    <label value="languages">language You Can Speak</label><br>
+                    <select name="languages" id="languages">
+                        <option value="" > --select-- </option>
+                        <option value="English" >English</option>
+                        <option value="Hindi" >Hindi</option>
+                        <option value="French" >French</option>
+                        <option value="Spanish" >Spanish </option>
+                        <option value="Chinese" >Chinese </option>
+                        <option value="Japanese" >Japanese </option>
+                        <option value="Russian" >Russian </option>
                 </select>
                 <br><br>
                     <button type="submit" id ="register">Register</button>
